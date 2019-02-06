@@ -168,12 +168,10 @@ function currentSlide(n) {
 
 function showSlides(n) {
   //alert('showslides('+ n +')\nslideIndex='+slideIndex);
- 
-
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
   if(width <= 1024){
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
     for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";  
     }
@@ -187,9 +185,6 @@ function showSlides(n) {
     setTimeout(showSlides, 5000); // Change image every 2 seconds
   }
   else{
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
     if (n==undefined){n = ++slideIndex}
     if (n > slides.length) {slideIndex = 1}
     if (n < 1) {slideIndex = slides.length}
@@ -203,6 +198,15 @@ function showSlides(n) {
     dots[slideIndex-1].className += " active";
   }
 }
+
+
+//analytics
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-133415259-3');
+
 
 
 //parallax
