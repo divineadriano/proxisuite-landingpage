@@ -1922,6 +1922,7 @@ body, html, #home{
     padding-right:10%;
     width:100%;
     transition: visibility 0s, opacity 1 linear;
+    margin-top:5%;
   }
 
   .thirdFrameFeatures{
