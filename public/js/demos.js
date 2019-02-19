@@ -131,6 +131,8 @@ document.addEventListener('DOMContentLoaded', function() {
     backSpeed: 0,
     loop: true
   });
+
+  
 });
 
 function prettyLog(str) {

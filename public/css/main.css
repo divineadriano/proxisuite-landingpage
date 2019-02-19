@@ -384,6 +384,40 @@
 .thirdFrameText{
   text-align: justify !important;
 }
+
+.newscolumn-header{
+  color:#3287c6;
+}
+.newscolumn{
+  width:50%;
+}
+
+.newscolumn img{
+  padding-top: 5%;
+  width:50%;
+  float:right;
+  margin-right:2%;
+}
+
+.newscolumn .newsTitle{
+  text-align: left !important;
+  font-size: 2em;
+  margin-left:2%;
+  width:60%;
+  padding-top: 5%;
+}
+
+.newscolumn a{
+  display: block;
+  text-align: left !important;
+  font-size: 1.2em;
+  margin-left:2%;
+  color: #f3a91d !important;
+}
+.newscolumn a:hover{
+  color: #000 !important;
+}
+
 /****************************/
 
 /************THUMBNAIL SLIDER***********/
@@ -1311,6 +1345,9 @@ body, html, #home{
   .navbar-nav > li > a {
     color: #fff !important;
   }
+  .dot-container{
+    display:none !important;
+  }
 }
 
 @media only screen and (max-width: 1280px){
@@ -1723,6 +1760,38 @@ body, html, #home{
   margin-top: 20%;
 }
 
+.newscolumn-header{
+  color:#3287c6;
+}
+.newscolumn{
+  width:100%;
+}
+
+.newscolumn img{
+  padding-top: 5%;
+  width:90%;
+  margin-right:5% !important;
+  margin-bottom: 3%;
+}
+
+.newscolumn .newsTitle{
+  text-align: left !important;
+  font-size: 1.8em !important;
+  margin-left:5%;
+  width:90%;
+}
+
+.newscolumn a{
+  display: block;
+  text-align: left !important;
+  font-size: 1.2em;
+  margin-left:5%;
+  color: #f3a91d !important;
+}
+.newscolumn a:hover{
+  color: #000 !important;
+}
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -1950,6 +2019,39 @@ body, html, #home{
 
   .fullWidth{
     height:300px;
+  }
+
+  .newscolumn-header{
+    color:#3287c6;
+  }
+  .newscolumn{
+    width:100% !important;
+  }
+  
+  .newscolumn img{
+    padding-top: 5%;
+    width:90%;
+    margin-right:5%;
+    margin-bottom: 2%;
+  }
+  
+  .newscolumn .newsTitle{
+    width:90%;
+    text-align: left !important;
+    font-size: 2.5em;
+    margin-left:7%;
+    padding-top: 5%;
+  }
+  
+  .newscolumn a{
+    display: block;
+    text-align: left !important;
+    font-size: 1.2em;
+    margin-left:7% ;
+    color: #f3a91d !important;
+  }
+  .newscolumn a:hover{
+    color: #000 !important;
   }
 
 }
