@@ -332,7 +332,7 @@
 
 }
 
-.active, .accordion:hover {
+.accordion:hover {
   background-color: #414141; 
 }
 
@@ -601,7 +601,7 @@ transition: background-color 0.6s ease;
 }
 
 /* Add a background color to the active dot/circle */
-.active, .dot:hover {
+.dot:hover {
 background-color: #414141;
 }
 
